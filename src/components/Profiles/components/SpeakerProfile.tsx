@@ -4,26 +4,24 @@ import Networks from "./Networks";
 import { IoFingerPrintOutline } from "react-icons/io5";
 import Cia from "../../../assets/cia.png";
 import ZenikaLogo from "../../../assets/zenika.png";
+import Spy from "../../../assets/spy.jpeg";
 
 type Props = {
   firstName: string;
   lastName: string;
   codeName: string;
-  urlImage: string;
+  speakerImage: string;
   githubLink: string;
   linkedinLink: string;
   twitterLink?: string;
   mastodonLink?: string;
 };
 
-const spyUrlImage: string =
-  "https://pbs.twimg.com/profile_images/502362219783262208/sTbN9xVK_400x400.jpeg";
-
 function SpeakerProfile({
   firstName,
   lastName,
   codeName,
-  urlImage,
+  speakerImage,
   githubLink,
   linkedinLink,
   twitterLink,
@@ -36,10 +34,10 @@ function SpeakerProfile({
           <div className="info">
             <div className="picture-container">
               <div className="spy">
-                <img className="round_image" src={spyUrlImage} />
+                <img className="round_image" src={Spy} />
               </div>
               <div>
-                <img className="round_image" src={urlImage} />
+                <img className="round_image" src={speakerImage} />
               </div>
             </div>
             <div className="details">
