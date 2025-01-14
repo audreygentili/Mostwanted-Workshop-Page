@@ -22,7 +22,7 @@ function Profiles() {
           lastName="Gentili"
           codeName="Agent A"
           speakerImage={AudreyImg}
-          githubLink="https://github.com/audrey-gentili"
+          githubLink="https://github.com/audreygentili"
           linkedinLink="https://www.linkedin.com/in/audrey-gentili/"
           twitterLink="https://twitter.com/audreygentili"
         />
